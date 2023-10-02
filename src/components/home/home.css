@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh auto 1vh auto;
+    width: 95%;
+}
+
+.header-items{
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+}
+
+.cars{
+    margin: 1.5vh 1vw 0 1.5vw;
+}
+
+.MuiInputBase-root  {
+    background: whitesmoke;
+  }
+
+.pagination,.caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption{
+    flex-direction: column;
+    margin-bottom: 8vh;
+}
+.capText{
+    font-size: 20px;
+}
+.tabs,.active{
+    background-color: rgb(229, 218, 236);
+    border-radius: 30px;
+    padding: 15px 28px;
+    margin-right: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.active{
+    background-color: #2b83e1;
+    color: white;
+    cursor: pointer;
+}

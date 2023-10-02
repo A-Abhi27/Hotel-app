@@ -1,0 +1,81 @@
+.hotel {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 29%;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: rgb(223, 227, 237);
+    box-shadow: 4px 4px 4px 3px rgba(137, 138, 138, 0.2);
+    border-radius: 12px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+  }
+  
+  .poster {
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    padding: 15px 0;
+    color: black;
+  }
+
+  .subTitle{
+    padding: 4px 10px;
+  }
+  
+  .details1{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    margin: 5px 10px;
+    padding: 0 5px;
+  }
+  .details2,.detail-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+    padding: 0 5px;
+  }
+
+  .detail-element{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .pricing,.img-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+  }
+
+  .heart-button{
+    display: inline-block;
+    background-color: rgb(223, 227, 237);
+    margin: 0 10px 0 0;
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  .MuiBadge-badge{
+    font-size: 20px;
+  }
+  .img-top{
+    position: relative;
+    z-index: 1;
+    bottom: 38vh;
+    margin: 0 20px;
+  }
